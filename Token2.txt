@@ -29,11 +29,16 @@ cd Repo1
 npm install
 node index.js
 
+sudo nano infi.sh
+
 #!/bin/bash
 while true
 do
         echo "Loop running"
 done
+
+sudo chmod 777 infi.sh
+sh infi.sh
 
 #!/bin/bash
 apt-get update
